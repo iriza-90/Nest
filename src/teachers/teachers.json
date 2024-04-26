@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Mr. Smith",
+      "subject": "Physics"
+    },
+    {
+      "id": 2,
+      "name": "Ms. Johnson",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Brown",
+      "subject": "Web"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Nobody",
+        "subject": "Nope" 
+    },
+    {
+        "id": 5,
+      "name": "Damnn",
+      "subject": "SE"
+    }
+  ]
