@@ -4,7 +4,9 @@ import { CreateCourseDto } from './data/courses';
 import { courses } from './data/courses';
 import { CourseDto } from './data/courses';
 import { UpdatecourseDto } from './data/courses';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('courses')
 @Controller('courses')
 export class CoursesController {  
    

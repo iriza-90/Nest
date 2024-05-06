@@ -8,7 +8,6 @@ import { TeachersModule } from './teachers/teachers.module';
 
 @Module({
   imports: [UsersModule, CoursesModule, TeachersModule],
-  controllers: [AppController, CoursesController],
   providers: [AppService],
 })
 export class AppModule {}

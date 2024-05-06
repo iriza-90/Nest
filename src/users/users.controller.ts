@@ -5,7 +5,9 @@ import { User } from './users.model';
 import { writeFile, readFile } from 'fs/promises';
 import { UserDto } from './data/users';
 import { UpdateuserDto } from './data/users';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('users')
 @Controller('users')
 export class UsersController {  
     // users: { id: number; username: string; email: string; telephone: string; }[];

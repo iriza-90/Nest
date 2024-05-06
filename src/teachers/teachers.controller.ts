@@ -4,7 +4,9 @@ import { CreateTeacherDto } from './teachers';
 import { writeFile, readFile } from 'fs/promises';
 import { TeacherDto } from './teachers';
 import { UpdateTeacherDto } from './teachers';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('teachers')
 @Controller('teachers')
 export class TeachersController {
 
